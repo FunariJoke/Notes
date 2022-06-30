@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function filter_list(l) {
+        for (let i = 0; i < l.length+1; i++) {
+        if (typeof l[i.length] === 'string' || l[i] instanceof String) {
+            l.splice(i, 1);  
+            i--;
+        }
+      console.log(l); 
+    }
+}
+
+function betterThanAverage(classPoints, yourPoints) {
+  var sum = 0
+  for (let i = 0; i < classPoints.length; i++) {
+    sum = sum + classPoints[i]
+    
+  }
+}
+
+
+    </script>
+</body>
+</html>
+
+
